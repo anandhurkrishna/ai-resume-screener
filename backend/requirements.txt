@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+motor
+sentence-transformers
+torch
+PyPDF2
+python-docx
+spacy
+numpy

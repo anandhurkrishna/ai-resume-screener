@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ai-resume-screener
+    env: python
+    buildCommand: |
+      cd backend && pip install -r requirements.txt
+      cd ../frontend && npm install && npm run build
+    startCommand: ./backend/start.sh
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
