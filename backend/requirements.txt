@@ -9,3 +9,4 @@ python-docx
 spacy
 numpy
 pdfplumber
+keybert
