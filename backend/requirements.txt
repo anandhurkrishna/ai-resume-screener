@@ -6,9 +6,8 @@ sentence-transformers
 torch
 PyPDF2
 python-docx
-spacy==3.7.2
 numpy
 pdfplumber
 keybert
-en-core-web-sm @
+spacy
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz 
