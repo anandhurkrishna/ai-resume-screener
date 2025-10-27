@@ -9,4 +9,4 @@ python-docx
 numpy
 pdfplumber
 keybert
-spacy=3.7.1
+spacy==3.7.1
