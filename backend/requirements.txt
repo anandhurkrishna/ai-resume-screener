@@ -3,11 +3,10 @@ uvicorn[standard]
 python-multipart
 motor
 sentence-transformers
-torch
+torch==2.2.0
 PyPDF2
 python-docx
 numpy
 pdfplumber
 keybert
-spacy
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz 
+spacy=3.7.1
